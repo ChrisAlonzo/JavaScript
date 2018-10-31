@@ -1,0 +1,59 @@
+ <!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Formulario AJAX</title>
+		<center><h1 style="color: violet  ">Calculadora Con AJAX</h1>
+
+		<link rel="stylesheet" href="calculadora.css">
+
+</head>
+<body>
+
+	<div id="container">
+
+    <table >
+    <thead  >
+    <tr>
+ 	<th></th>
+	<th>Operador1:</th><br /><br />
+	<th>Operaci&oacute;n: </th>
+	
+	<th>Operador2:</th><br /><br /></center>
+	<th>Resultado</th>
+</body>
+
+	<tbody>
+	 <tr>
+	
+	 <br>
+     <td><center><input type="submit" value="Calcular" style="width: 100px; height: 100px; " onclick="calcular()"></center></td>
+
+	
+	<td><input type="text" style="width: 40px" id="operador1" ></td>
+	<td><select name="operacion" id="operacion">
+		<option value="1">+</option>
+		<option value="2">-</option>
+		<option value="3">*</option>
+		<option value="4">/</option>
+		<option value="5">%</option></td>
+
+	
+	<td><input type="text"  style="width: 40px" id="operador2"></td>
+	
+	<td type="text" style="width: 20px" div id="mensaje"></div></td>
+	</tr>
+	
+</tbody>
+</table>
+
+	</thead>
+
+	</div>
+	</table>
+
+	<script type="text/javascript" src="js/calculadora.js"></script>
+	<script type="text/javascript" src="js/calculadora.css"></script>
+	
+</body>
+</html>
